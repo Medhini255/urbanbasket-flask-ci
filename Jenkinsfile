@@ -22,7 +22,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/<your-username>/urbanbasket-flask-ci.git',
+                git url: 'https://github.com/Medhini255/urbanbasket-flask-ci.git',
                     branch: 'main'
             }
         }
